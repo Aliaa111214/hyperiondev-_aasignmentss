@@ -3,7 +3,8 @@ number_input=int(input("please enter a number\n"))
 sum=number_input
 counter=1
 #this is loop that asks the user to input 
-while number_input!=-1:
+# the if condition is important as i noticed while runing the progarm that it takes -1 into calculation if this condition is not there
+while number_input!=-1:#while loop takes user input under condition
  number=int(input("please enter a number\n"))
 # the if condition is important as i noticed while runing the progarm that it takes -1 into calculation if this condition is not there
  if number==-1:
