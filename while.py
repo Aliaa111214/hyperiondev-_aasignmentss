@@ -6,7 +6,7 @@ counter=1
 # the if condition is important as i noticed while runing the progarm that it takes -1 into calculation if this condition is not there
 while number_input!=-1:#while loop takes user input under condition
  number=int(input("please enter a number\n"))
-# the if condition is important as i noticed while runing the progarm that it takes -1 into calculation if this condition is not there
+
  if number==-1:
   break
  sum=sum+number
